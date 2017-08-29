@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+'''
+This script is used to free an specific IP address (or addresses). The IP (or IPs) are no longer in use by OpenNebula VMs or reservations.
+
+Arguments:
+
+AddressRange and Address. Same as in allocate_address.
+Request ID, used internally to identify this IPAM request.
+Returns: This scripts MUST exit 0 if the address is free.
+
+'''
